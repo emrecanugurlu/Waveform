@@ -1,0 +1,40 @@
+# Gradle & Kotlin build outputs
+.gradle/
+.kotlin/
+build/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Android generated binaries & signed release folders
+*.apk
+*.ap_
+*.aab
+*.dex
+androidApp/release/
+androidApp/debug/
+
+# Local config & signing secrets
+local.properties
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+google-services.json
+
+# IDE & OS
+*.iml
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.hprof
+
+# iOS / Xcode
+iosApp/Pods/
+*.xcuserstate
+**/xcuserdata/
+DerivedData/
